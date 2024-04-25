@@ -5,13 +5,13 @@
 
     <div class="navbar-brand-box">
         <a href="index.html" class="logo">
-            <i class="mdi mdi-album"></i>
+            <i class="mdi mdi-album"></i>f
             <span>
                 T. BOLAÑOS
             </span>
         </a>
     </div>
-
+–
     <!--- Sidemenu -->
     <div id="sidebar-menu">
         <!-- Left Menu Start -->
@@ -27,8 +27,8 @@
                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
                         class="mdi mdi-tag-multiple"></i><span>Productos</span></a>
                 <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="ui-buttons.html">Agregar producto</a></li>
-                    <li><a href="ui-cards.html">Gestionar prodcutos</a></li>
+                    <li><a href="productos.php">Ver Todo</a></li>
+                    <li><a href="productos.html">Gestionar prodcutos</a></li>
                 </ul>
             </li>
             <li>
