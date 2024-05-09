@@ -11,77 +11,89 @@
             </span>
         </a>
     </div>
-–
+
     <!--- Sidemenu -->
     <div id="sidebar-menu">
         <!-- Left Menu Start -->
         <ul class="metismenu list-unstyled" id="side-menu">
+            <li class="menu-title">Proyectos</li>
             <li>
-                <a href="index.html" class="waves-effect"><i class="mdi mdi-gauge-full"></i><span>Panel</span></a>
-            </li>
-            <li class="menu-title">Tienda</li>
-            <li>
-                <a href="index.html" class="waves-effect"><i class="mdi mdi-shopify "></i><span>Vender</span></a>
+                <a href="proyectos.php" class="waves-effect"><i class="fas fa-folder-open"></i><span>Todos los proyectos</span></a>
             </li>
             <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-tag-multiple"></i><span>Productos</span></a>
+                        class="fas fa-sliders-h"></i><span>Por lenguaje</span></a>
                 <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="productos.php">Ver Todo</a></li>
-                    <li><a href="productos.html">Gestionar prodcutos</a></li>
+                    <li><a href="productos.php">javascript</a></li>
+                    <li><a href="productos.html">Python</a></li>
+                    <li><a href="productos.html">Java</a></li>
+                    <li><a href="productos.html">C++</a></li>
+                    <li><a href="productos.html">Otros</a></li>
                 </ul>
+            </li>
+            <li class="menu-title">Sistemas Desarrollados</li>
+            <li>
+                <a href="index.html" class="waves-effect"><i class="fas fa-folder-open"></i><span>Todos los Sistemas</span></a>
             </li>
             <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-account-group"></i><span>Clientes</span></a>
+                        class="fas fa-sliders-h"></i><span>Por Categoria</span></a>
                 <ul class="sub-menu" aria-expanded="false">
-                <li><a href="charts-chartjs.html">Agregar Clientes</a></li>
-                    <li><a href="charts-morris.html">Historial de clientes</a></li>
-                    <li><a href="charts-sparkline.html">Gestionar clientes</a></li>
+                <li><a href="charts-chartjs.html">Gestión de Proyectos</a></li>
+                    <li><a href="charts-morris.html">Recursos Humanos</a></li>
+                    <li><a href="charts-sparkline.html">Contabilidad</a></li>
+                    <li><a href="charts-sparkline.html">Otros</a></li>
                 </ul>
+            </li>
+            <li class="menu-title">Plantillas Web</li>
+            <li>
+                <a href="index.html" class="waves-effect"><i class="fas fa-network-wired"></i><span>Todos las Plantillas</span></a>
             </li>
             <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-square-inc-cash"></i><span>Ventas</span></a>
+                        class="fas fa-sliders-h"></i><span>Por Categoria</span></a>
                 <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="tables-basic.html">Pedidos Pendientes</a></li>
-                    <li><a href="tables-datatables.html">Historial de ventas</a></li>
-                    <li><a href="tables-datatables.html">Facturación y Pagos</a></li>
+                <li><a href="charts-chartjs.html">Negocios</a></li>
+                    <li><a href="charts-morris.html">Educación</a></li>
+                    <li><a href="charts-sparkline.html">Salud</a></li>
+                    <li><a href="charts-sparkline.html">Otros</a></li>
                 </ul>
             </li>
 
-            
-
+            <li class="menu-title">Servicios</li>
             <li>
-            <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-book-open"></i><span>Reportes</span></a>
+                <a href="index.html" class="waves-effect"><i class="fas fa-medal"></i><span>Tutoría en Línea</span></a>
+            </li>
+            <li>
+                <a href="index.html" class="waves-effect"><i class="fab fa-leanpub"></i><span>Consultoría</span></a>
+            </li>
+            <li>
+                <a href="index.html" class="waves-effect"><i class="fas fa-rocket"></i><span>Desarrollo a medida</span></a>
+            </li>
+            <li>
+                <a href="index.html" class="waves-effect"><i class="fas fa-laptop-code"></i><span>Auditoría de código</span></a>
+            </li>
+
+            <li class="menu-title">Mas Info</li>
+            <li>
+                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
+                        class="fas fa-people-carry"></i><span>Nosotros</span></a>
                 <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="forms-elements.html">Informe de ventas</a></li>
-                    <li><a href="forms-plugins.html">Informe de clientes</a></li>
-                    <li><a href="forms-validation.html">Informes financieros</a></li>
+                <li><a href="charts-chartjs.html">Sobre Nosotros</a></li>
+                    <li><a href="charts-morris.html">Nuestro Equipo</a></li>
+                    <li><a href="charts-sparkline.html">Testimonios</a></li>
+                    <li><a href="charts-sparkline.html">Políticas de privacidad</a></li>
                 </ul>
             </li>
-            <li class="menu-title">Marketing</li>
-
-            <li>
-                
-                    <li><a href="icons-materialdesign.html">Promociones y Descuentos</a></li>
-                    <li><a href="icons-fontawesome.html">Campañas de Marketing</a></li>
-            </li>
-
-            <li class="menu-title">Más</li>
 
             <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-chart-areaspline"></i><span>Envios y Logística</span></a>
+                        class="fas fa-headset"></i><span>Contacto</span></a>
                 <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="pages-invoice.html">Gestión de envios</a></li>
-                    <li><a href="pages-starter.html">Proveedores de envio</a></li>
-                    <li><a href="pages-maintenance.html">Devoluciones</a></li>
+                <li><a href="charts-chartjs.html">Información de contacto</a></li>
+                    <li><a href="charts-morris.html">Fomulario de Contacto</a></li>
+                    <li><a href="charts-sparkline.html">Preguntas Frecuentes</a></li>
                 </ul>
-            </li>
-            <li>
-                <a href="index.html" class="waves-effect"><i class="mdi mdi-teach"></i><span>Info</span></a>
             </li>
         </ul>
     </div>
