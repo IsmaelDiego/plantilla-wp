@@ -10,14 +10,14 @@
                         <div class="dropdown d-none d-sm-inline-block">
                             <button type="button" class="btn header-item waves-effect"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="mdi mdi-plus"></i> Create New
+                                <i class="mdi mdi-spa"></i> Ver carrito
                                 <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
                             </button>
                             <div class="dropdown-menu">
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    Application
+                                    Aplicaciones
                                 </a>
 
                                 <!-- item-->
@@ -27,12 +27,12 @@
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    EMS System
+                                    Systemas y Demos
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    CRM App
+                                    Apps 
                                 </a>
                             </div>
                         </div>
@@ -61,41 +61,6 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item waves-effect"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="" src="plantilla/admin/vertical/assets/images/flags/us.jpg" alt="Header Language" height="16">
-                                <span class="d-none d-sm-inline-block ml-1">English</span>
-                                <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right">
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="plantilla/admin/vertical/assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12">
-                                    <span class="align-middle">Spanish</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="plantilla/admin/vertical/assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12">
-                                    <span class="align-middle">German</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="plantilla/admin/vertical/assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12">
-                                    <span class="align-middle">Italian</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="plantilla/admin/vertical/assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12">
-                                    <span class="align-middle">Russian</span>
-                                </a>
                             </div>
                         </div>
 
@@ -173,35 +138,36 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img class="rounded-circle header-profile-user" src="plantilla/admin/vertical/assets/images/users/avatar-2.jpg"
                                     alt="Header Avatar">
-                                <span class="d-none d-sm-inline-block ml-1">Donald M.</span>
+                                <span class="d-none d-sm-inline-block ml-1">Ismael Diego</span>
                                 <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-right">
                                 <a class="dropdown-item d-flex align-items-center justify-content-between"
                                     href="javascript:void(0)">
-                                    <span>Inbox</span>
+                                    <span>Mi info</span>
                                     <span>
                                         <span class="badge badge-pill badge-info">3</span>
                                     </span>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center justify-content-between"
                                     href="javascript:void(0)">
-                                    <span>Profile</span>
+                                    <span>Mis archivos</span>
                                     <span>
                                         <span class="badge badge-pill badge-warning">1</span>
                                     </span>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center justify-content-between"
                                     href="javascript:void(0)">
-                                    Settings
+                                    Configurar
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center justify-content-between"
                                     href="javascript:void(0)">
                                     <span>Lock Account</span>
                                 </a>
-                                <a class="dropdown-item d-flex align-items-center justify-content-between"
+                                <a class="dropdown-item  d-flex align-items-center justify-content-between"
                                     href="javascript:void(0)">
-                                    <span>Log Out</span>
+                                    <span>Cerrar Sesión</span>
+                                    <i class="mdi mdi-clock-outline"></i>
                                 </a>
                             </div>
                         </div>
