@@ -10,12 +10,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="plantilla/admin/vertical/assets/images/favicon.ico">
+        <link rel="shortcut icon" href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/images/favicon.ico">
 
         <!-- App css -->
-        <link href="plantilla/admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -43,7 +43,7 @@
                                 <!-- Simple card -->
                                 <!-- Simple card -->
                             <div class="card">
-                                <img class="card-img-top img-fluid" src="plantilla/admin/vertical/assets/images/media/sm-2.jpg" alt="Card image cap">
+                                <img class="card-img-top img-fluid" src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/images/media/sm-2.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title"> Lenovo</h5>
                                     <p class="card-text">Laptop Lenovo IP1 15AMN7 Ryzen 3-7320U 8GB RAM 512GB SSD 15.6" W11</p>
@@ -81,14 +81,14 @@
 
 
         <!-- jQuery  -->
-        <script src="plantilla/admin/vertical/assets/js/jquery.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/metismenu.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/waves.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/simplebar.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/jquery.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/metismenu.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/waves.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <script src="plantilla/admin/vertical/assets/js/theme.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/theme.js"></script>
 
     </body>
 

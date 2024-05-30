@@ -10,12 +10,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="plantilla/admin/vertical/assets/images/favicon.ico">
+        <link rel="shortcut icon" href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/images/favicon.ico">
 
         <!-- App css -->
-        <link href="plantilla/admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -73,7 +73,7 @@
                             <div class="card">
                                 <div class="row">
                                     <div class="col-6">
-                                <img class="card-img-top img-fluid" src="assets/images/media/sm-5.jpg" alt="Card image cap">
+                                <img class="card-img-top img-fluid" src="<?php bloginfo('template_url');?>/assets/images/media/sm-5.jpg" alt="Card image cap">
                                 </div>
                                 <div class="col-6">
                                 <div class="card-body">
@@ -103,7 +103,7 @@
                             <div class="card">
                             <div class="row">
                                 <div class="col-6">
-                                <img class="card-img-top img-fluid" src="assets/images/media/sm-5.jpg" alt="Card image cap">
+                                <img class="card-img-top img-fluid" src="<?php bloginfo('template_url');?>/assets/images/media/sm-5.jpg" alt="Card image cap">
                                 </div>
                                 <div class="col-6">
                                 <div class="card-body">
@@ -133,7 +133,7 @@
                             <div class="card">
                                 <div class="row">
                                     <div class="col-6">
-                                <img class="card-img-top img-fluid" src="assets/images/media/sm-5.jpg" alt="Card image cap">
+                                <img class="card-img-top img-fluid" src="<?php bloginfo('template_url');?>/assets/images/media/sm-5.jpg" alt="Card image cap">
                                 </div>
                                 <div class="col-6">
                                 <div class="card-body">
@@ -187,14 +187,14 @@
 
 
         <!-- jQuery  -->
-        <script src="plantilla/admin/vertical/assets/js/jquery.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/metismenu.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/waves.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/simplebar.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/jquery.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/metismenu.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/waves.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <script src="plantilla/admin/vertical/assets/js/theme.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/theme.js"></script>
 
     </body>
 

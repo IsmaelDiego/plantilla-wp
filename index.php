@@ -10,12 +10,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="plantilla/admin/vertical/assets/images/favicon.ico">
+        <link rel="shortcut icon" href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/images/favicon.icon">
 
         <!-- App css -->
-        <link href="plantilla/admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -25,9 +25,11 @@
         <div id="layout-wrapper">
             <div class="header-border"></div>
             
+            
             <?php include("layout/header.php"); ?>
 
             <?php include("layout/menu.php"); ?>
+
 
             <!-- ============================================================== -->
             <!-- Start right Content here -->
@@ -59,21 +61,21 @@
                             <div id="carouselExampleCaption" class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner" role="listbox">
                                             <div class="carousel-item active">
-                                                <img src="assets/images/media/sm-3.jpg" alt="..." class="d-block img-fluid">
+                                                <img src="php bloginfo('template_url');?>/assets/images/media/sm-3.jpg" alt="..." class="d-block img-fluid">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h3 class="text-white">First slide label</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="assets/images/media/sm-4.jpg" alt="..." class="d-block img-fluid">
+                                                <img src="<?php bloginfo('template_url');?>/assets/images/media/sm-4.jpg" alt="..." class="d-block img-fluid">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h3 class="text-white">Second slide label</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="assets/images/media/sm-5.jpg" alt="..." class="d-block img-fluid">
+                                                <img src="<?php bloginfo('template_url');?>/assets/images/media/sm-5.jpg" alt="..." class="d-block img-fluid">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h3 class="text-white">Third slide label</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -112,14 +114,14 @@
 
 
         <!-- jQuery  -->
-        <script src="plantilla/admin/vertical/assets/js/jquery.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/metismenu.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/waves.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/simplebar.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/jquery.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/metismenu.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/waves.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <script src="plantilla/admin/vertical/assets/js/theme.js"></script>
+        <script src="<?php bloginfo('template_url');?>/plantilla/admin/vertical/assets/js/theme.js"></script>
 
     </body>
 
