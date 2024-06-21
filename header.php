@@ -32,7 +32,7 @@
             <div data-simplebar class="h-100">
 
                 <div class="navbar-brand-box">
-                    <img src="img/imagotipo-DEVWEB 2.png" width="100%" alt="">
+                    <img src="<?php bloginfo('template_url');?>/img/imagotipo-DEVWEB 2.png" width="100%" alt="">
                 </div>
 
                 <?php wp_nav_menu(

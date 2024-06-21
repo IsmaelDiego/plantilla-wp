@@ -68,6 +68,44 @@
                         </div> <!-- end col -->
                     </div>
                     <!-- end row-->
+                     <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <div class="container-fluid row">
+                                    <?php if ( have_posts() ) :
+                                            while ( have_posts() ) : the_post();
+                                                
+                                            
+                                    ?>
+                                        <div class="col-lg-2 col-md-3 col-sm-6">
+                                            <div class="card">
+                                                <a href="<?php the_permalink(); ?>" class="text-center"><?php 
+                                                if ( has_post_thumbnail() ) {
+                                                    the_post_thumbnail('thumbnail', array( 'class' => 'card-image-top alignleft' ));
+                                                }
+                                                ?></a>
+                                                <div class="card-body">
+                                                    <h5 class="card-title"><?php the_title();?></h5>
+                                                    <p class="card-text">
+                                                    
+                                                    <?php the_content();?>
+                                                         <?php the_excerpt();?>
+                                                    <span class="badge badge-soft-primary float-star"><?php the_tags();?></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php
+                                endwhile;
+                                        else :
+                                            _e( 'Lo siento no la categoria seleccionada', 'textdomain' );
+                                        endif; ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
 
                     </div> <!-- container-fluid -->
                 </div>
