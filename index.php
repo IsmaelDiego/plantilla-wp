@@ -78,7 +78,7 @@
                                                 
                                             
                                     ?>
-                                        <div class="col-lg-2 col-md-3 col-sm-6">
+                                        <div class="col-lg-4 col-md-6 col-sm-12">
                                             <div class="card">
                                                 <a href="<?php the_permalink(); ?>" class="text-center"><?php 
                                                 if ( has_post_thumbnail() ) {
