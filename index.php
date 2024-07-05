@@ -78,11 +78,12 @@
                                                 
                                             
                                     ?>
-                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="col-lg-3 col-md-6 col-sm-12">
                                             <div class="card">
-                                                <a href="<?php the_permalink(); ?>" class="text-center"><?php 
+                                                <a href="<?php the_permalink(); ?>" class="text-center">
+                                                    <?php 
                                                 if ( has_post_thumbnail() ) {
-                                                    the_post_thumbnail('thumbnail', array( 'class' => 'card-image-top alignleft' ));
+                                                    the_post_thumbnail('medium', array( 'class' => 'card-image-top alignleft' ));
                                                 }
                                                 ?></a>
                                                 <div class="card-body">
@@ -90,7 +91,6 @@
                                                     <p class="card-text">
                                                     
                                                     <?php the_content();?>
-                                                         <?php the_excerpt();?>
                                                     <span class="badge badge-soft-primary float-star"><?php the_tags();?></span>
                                                     </p>
                                                 </div>
@@ -110,6 +110,7 @@
                     </div> <!-- container-fluid -->
                 </div>
                 <!-- End Page-content -->
+                 </div>
 
                 <?php 
                 get_footer();
